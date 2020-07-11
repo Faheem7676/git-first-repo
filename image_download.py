@@ -8,7 +8,7 @@ import zipfile,os
 import time
 
 
-def download_wait(path_to_downloads):
+def download_wait(path_to_downloads):    #Method for downloading mutlipple flowers
     seconds = 0
     dl_wait = True
     while dl_wait:
