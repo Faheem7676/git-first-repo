@@ -14,7 +14,7 @@ def download_wait(path_to_downloads):    #Method for downloading mutlipple flowe
     while dl_wait:
         time.sleep(1)
         dl_wait = False
-        for fname in os.listdir(path_to_downloads):
+        for fname in os.listdir(path_to_downloads):        
             if fname.endswith('.crdownload'):
                 dl_wait = True
         seconds += 1
@@ -88,3 +88,19 @@ for file in os.listdir(current_dir+'\\'+word):
 # src=(img.get_attribute('src'))
 # urllib.urlretrieve(src, word+".jpg")
 # driver.close()
+
+#Modified
+
+# from selenium import webdriver
+# import time
+
+# driver=webdriver.Chrome("C:/Users/faroo/Desktop/work/drivers/chromedriver.exe")
+
+# driver.get("https://www.reddit.com/")
+
+# cookies=driver.get_cookies()
+
+# for cookie in cookies:
+# 	print(cookie)
+
+# driver.quit()
