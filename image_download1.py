@@ -104,3 +104,17 @@ for file in os.listdir(current_dir+'\\'+word):
 # 	print(cookie)
 
 # driver.quit()
+
+
+
+
+
+
+
+
+
+
+
+
+#from newsgallery
+#website, android, ios app
